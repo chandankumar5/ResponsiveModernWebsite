@@ -1,0 +1,132 @@
+@media screen and (max-width: 991px){
+    h3{
+    	font-size: 1.2rem;
+    }
+    .primary-btn{
+    	width: 100%;
+    }
+    .nav-toggle{
+    	display: block;
+    	margin-right: 20px;
+    }
+    .nav-links{
+    	position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block:20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active{
+        left:0;
+
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .main-nav{
+        overflow: initial;
+
+    }
+    .examples-card1{
+    	width: 49%;
+        height: 200px;
+    }
+    .examples-card2{
+    	width: 49%;
+        height: 200px;
+    }
+    .examples-card3{
+        margin-top: 4px;
+    	width: 49%;
+        height: 200px;
+    }
+    .examples-card4{
+    	width: 49%;
+        margin-top: 4px;
+        height: 200px;
+    }
+    .cta-section{
+    	padding-block:80px;
+	}
+	.footer-container img{
+     	width: 60%;
+     }
+
+}
+
+@media screen and (max-width: 767px){
+	.header-section{
+		flex-direction: column-reverse;
+	}
+	.header-left{
+		max-width: 100vw;
+		text-align: center;
+	}
+	.features-card{
+		min-width: 40%;
+     }
+     .big-features-container{
+     	flex-direction: column;
+     }
+     .big-features-container-reverse{
+        flex-direction: column-reverse;
+     }
+     .footer-container{
+     	flex-direction: column;
+     	grid-gap: 40px;
+     	text-align: center;
+     	align-items: center;
+     }
+     .footer-container img{
+     	width: 60%;
+     }
+     .link-column{
+     	align-items: stretch;
+     }
+}
+
+@media screen and (max-width: 479px){
+   :root{
+    --padding-inline-section:5px;
+   };
+   h1{
+    font-size: 2rem;
+
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+
+    .examples-card1{
+        width: 100%;
+       
+    }
+    .examples-card2{
+        width: 100%;
+        margin-top: 4px;
+        
+    }
+    .examples-card3{
+        margin-top: 4px;
+        width: 100%;
+        
+    }
+    .examples-card4{
+        width: 100%;
+        margin-top: 4px;
+       
+    }
+    .features-card{
+        min-width: 100%;
+     }
+}
